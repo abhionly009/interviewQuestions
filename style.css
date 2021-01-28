@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: lawngreen;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+.rectangle {
+  height: 200px;
+  width: 300px;
+  background-color: indigo;
+}
+
+.semicircle {
+  height: 200px;
+  width: 200px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: teal;
+}
+.triangle {
+  height: 0;
+  width: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-bottom: 200px solid tomato;
+}
